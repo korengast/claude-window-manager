@@ -19,6 +19,7 @@ dev = [
 
 [project.scripts]
 claude-wm = "claude_window_manager.app_pystray:main"
+cwm = "claude_window_manager.cli:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
